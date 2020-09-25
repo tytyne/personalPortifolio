@@ -116,8 +116,8 @@ body{
 	  
   }
   .introduction .right{
-     margin:100px;
-	 width:60%;
+  margin:100px;
+	width:60%;
 	height: 70vh;
 	color:white;
 	font-size:30px;
@@ -195,6 +195,7 @@ body{
     font-size:24px;
     font-family:Roboto;
     padding-left:100px;
+    color:white;
 
   }
   
@@ -202,6 +203,7 @@ body{
    display:flex;
    padding-top:30px;
    margin-right: 180px;
+   color:white;
   
  }
  @media only screen and (max-width:529px){
@@ -246,7 +248,7 @@ body{
  }
  #projects{
   background-color:#F4BD00;
-  height: 120vh;
+  height: 135vh;
   font-size:24px;
   font-family:Roboto;
   padding-left:100px;
@@ -317,9 +319,16 @@ body{
   height: 70vh;
   display: flex;
   padding-top: 100px;
+  color:white;
 }
 .contactMe .left{
 width: 50%;
+padding-left:100px;
+}
+.contactMe img{
+  height:50px;
+  width:50px;
+  padding:10px;
 }
 .contactMe .right{
 width:50%;
@@ -331,6 +340,7 @@ width:50%;
   padding-left:100px;
   padding-top:30px;
 }
+
 .contactMe input[type="text"]{
   width:200px;
   height:40px;
