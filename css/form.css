@@ -64,7 +64,7 @@
 }
 .main-container .left img {
   margin-left: 70px;
-  margin-top:-200px;
+ margin-top:20px;
 }
 
 .main-container .right h2{
@@ -224,7 +224,6 @@ text-align:center
   padding:100px;
 }
 .main-contain #articles{
-  /* margin-top:200px; */
   display:flex;
   flex-wrap:wrap;
 }
@@ -242,6 +241,58 @@ text-align:center
   color:white;
   font-weight:200px;
 }
+/* end all articles */
+
+
+/* footer section */
+
+#footer{
+  background-color:#F49200;
+  height:10vh;
+}
+#footer nav {
+  padding-top:0px;
+  width:100%;
+  height:10px;
+ margin-top:5px;
+ background-color:transparent;
+    
+}
+#footer nav>ul {
+  text-align:center;
+}
+
+#footer nav>ul>li {
+  display: inline-block;
+}
+
+#footer nav ul li a {
+  box-sizing:border-box;
+  margin-left: 20px;
+  margin-right:20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color:#EF3F19;
+  font-family:poppins;
+  font-size:normal;
+  Font-weight:1000;
+  position:relative;
+  font-weight: 200;
+   
+}
+
+/* end footer section */
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 529px) {
