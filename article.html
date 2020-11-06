@@ -5,31 +5,28 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/dashboard.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <title>portifolio</title>
 </head>
 <body>
-    <header>
-        <div class="topnav" id="myTopnav">
-          <a href=" " class="active">
-           TYTYNE
-          </a>
-          <a href="/">HOME</a>
-          <a href="/#aboutMe">ABOUT</a>
-          <a href="/#projects">PROJECTS</a>
-          <a href="">ARTICLES</a>
-          <a href="/#services">SERVICES</a>
-          <a href="/#clients">CLIENTS</a>
-          <a href="/#contact">CONTACT</a>
-          <a><button onclick="signOut()" id="signOut">Signout</button></a>
-      
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>post/article
-      </header>
+  <div class="sidebar">
+         
+            
+    <ul>
+      <li><a class="active" href="/#home">Home</a></li>
+      <li><a href="admin.html">add new Admin</a></li>
+      <li><a href="userdashboard.html">Users</a></li>
+      <li><a href="all.html">All articles</a></li>
+      <li><a href="queries.html">Queries</a></li>
+      <li><a href="article.html">Add new article</a></li>
+      <li><a href="logout">logout</a></li>
+     
+    </ul>
            
-        <main class="main-container">
-
+        <main class="main-form">
+        <form>
+          <h4>Add New Article</h4>
           <div class="newArticle">
             <form action="/api/post/article" id="contactForm"  method="POST">
               <div class="alert">Your message has been sent</div>
@@ -45,31 +42,7 @@
           </form>
           </div>
         </main>
-        <div id="footer">
-          <!-- menus -->
-          <nav>
-          <ul>
-              <li>
-              <a href=""><h4>HOME</h4></a>
-              </li>
-              <li>
-              <a href="/#aboutMe">About</a>
-              </li>
-              <li> <a href="/#services">Services</a>
-              </li>
-              <li>
-              <a href="/#projects">Projects</a>
-              </li>
-             <li>
-              <a href="">Blog</a>
-              </li>
-              <li> <a href="/#clients">Clients</a>
-              </li>
-            
-  
-          </ul>
-          </nav>
-          </div>
+     </div>
     
       
     <script src="https://unpkg.com/mustache@4.0.1/./mustache.js"></script>
