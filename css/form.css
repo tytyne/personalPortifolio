@@ -135,15 +135,7 @@ color:white;
   height: 30px;
   background-color: white;
 }
-   input[type=textarea] {
-  width: 400px;
-  height:200px;
-  background-color:#F4EFF5;
-  margin-bottom: 20px;
-  resize: vertical;
-  display: block;
-  border:none;
-}
+ 
 .alert{
   /* text-align: center; */
   padding:5px;
@@ -290,8 +282,6 @@ text-align:center
   font-weight: 200;
    
 }
-
-/* end footer section */
 tr .edit{
   display:none
 }
@@ -303,40 +293,7 @@ table input{
   display:initial
 }
 
-.sidebar{
-  margin-top:100px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-li a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
-
-
-
+/* end footer section */
 
 @media only screen and (max-width: 529px) {
   .main-container input[type="text"],
